@@ -15276,7 +15276,6 @@
                 "eventData": Base64.encode(format_json_data)
             };
     
-            
             var p_url = 'https://gather.increasingly.com/ProductInventoryUpdate';
             var xhr = new XMLHttpRequest();
             xhr.open("POST", p_url, true);
